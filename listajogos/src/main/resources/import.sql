@@ -1,3 +1,6 @@
+INSERT INTO tabela_lista_jogos (nome) VALUES ('Aventura e RPG');
+INSERT INTO tabela_lista_jogos (nome) VALUES ('Jogos de plataforma');
+
 INSERT INTO tabela_jogo (titulo, pontuacao, ano, genero, plataforma, img_url, descricao_curta, descricao_longa) VALUES ('Mass Effect Trilogy', 4.8, 2012, 'Role-playing (RPG), Shooter', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/1.png', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!', 'Lorem ipsum dolor sit amet consectetur adipisicing elita Lorem ipsum dolor sit amet consectetur adipisicing elita Lorem ipsum dolor sit amet consectetur adipisicing elita Lorem ipsum dolor sit amet consectetur adipisicing elita Lorem ipsum dolor sit amet consectetur adipisicing elita .');
 INSERT INTO tabela_jogo (titulo, pontuacao, ano, genero, plataforma, img_url, descricao_curta, descricao_longa) VALUES ('Red Dead Redemption 2', 4.7, 2018, 'Role-playing (RPG), Adventure', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/2.png', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!', 'Lorem ipsum dolor sit amet consectetur adipisicing elita Lorem ipsum dolor sit amet consectetur adipisicing elita Lorem ipsum dolor sit amet consectetur adipisicing elita Lorem ipsum dolor sit amet consectetur adipisicing elita .');
 INSERT INTO tabela_jogo (titulo, pontuacao, ano, genero, plataforma, img_url, descricao_curta, descricao_longa) VALUES ('The Witcher 3: Wild Hunt', 4.7, 2014, 'Role-playing (RPG), Adventure', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/3.png', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. .');
@@ -8,3 +11,16 @@ INSERT INTO tabela_jogo (titulo, pontuacao, ano, genero, plataforma, img_url, de
 INSERT INTO tabela_jogo (titulo, pontuacao, ano, genero, plataforma, img_url, descricao_curta, descricao_longa) VALUES ('Ori and the Blind Forest', 4, 2015, 'Platform', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/8.png', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. .');
 INSERT INTO tabela_jogo (titulo, pontuacao, ano, genero, plataforma, img_url, descricao_curta, descricao_longa) VALUES ('Cuphead', 4.6, 2017, 'Platform', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/9.png', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. .');
 INSERT INTO tabela_jogo (titulo, pontuacao, ano, genero, plataforma, img_url, descricao_curta, descricao_longa) VALUES ('Sonic CD', 4, 1993, 'Platform', 'Sega CD, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/10.png', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. .');
+
+
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (1, 1, 0);
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (1, 2, 1);
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (1, 3, 2);
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (1, 4, 3);
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (1, 5, 4);
+
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (2, 6, 0);
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (2, 7, 1);
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (2, 8, 2);
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (2, 9, 3);
+INSERT INTO tabela_pertencimento (lista_id, jogo_id, posicao) VALUES (2, 10, 4);

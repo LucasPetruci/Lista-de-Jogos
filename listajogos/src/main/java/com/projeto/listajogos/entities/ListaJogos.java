@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tabela_lista_jogo")
+@Table(name = "tabela_lista_jogos")
 public class ListaJogos {
 
 	@Id
@@ -22,7 +22,6 @@ public class ListaJogos {
 	}
 
 	public ListaJogos(Long id, String nome) {
-		super();
 		this.id = id;
 		this.nome = nome;
 	}
