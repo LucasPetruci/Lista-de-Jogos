@@ -12,6 +12,7 @@ public class ErrorException extends RuntimeException {
     private static final long serialVersionUID = 1L;
     
     private final String time;
+
     
     public ErrorException(String message) {
         super(message);
